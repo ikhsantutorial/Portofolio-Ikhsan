@@ -377,3 +377,82 @@ footer p:nth-child(2) {
   bottom: 65px;
   font-size: 16px;
 }
+
+@media only screen and (max-width: 768px) {
+  nav {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .image {
+    width: 100%;
+    position: static;
+  }
+
+  .content {
+    position: static;
+    top: auto;
+    left: auto;
+    transform: none;
+    text-align: center;
+  }
+
+  .about-me,
+  .about-text,
+  .service,
+  .skill,
+  .contact-me,
+  .footer {
+    width: 100%;
+    padding: 50px 5%;
+  }
+
+  .about-text h2 {
+    font-size: 40px;
+  }
+
+  .about-text h5 {
+    font-size: 18px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+
+  .button,
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .card {
+    width: 80%;
+    margin: 15px auto;
+  }
+
+  .skill-box,
+  .skill-bar p {
+    text-align: center;
+  }
+
+  .html,
+  .css,
+  .javascript,
+  .react,
+  .php,
+  .python,
+  .mysql,
+  .firebase,
+  .figma,
+  .sketch,
+  .photoshop {
+    width: 100%;
+  }
+
+  .contact {
+    width: 100%;
+    padding: 25px;
+    float: none;
+  }
+}
+
